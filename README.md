@@ -56,9 +56,9 @@
 
             - These example depicts a simple 3x3 image, but it can be expanded to represent larger images by adding more rows and columns with their respective RGBA pixel values.
 
-        - #### here is an example image:
+        - #### here is an example image:<br>
 
-            ![Image Diagram](https://web.stanford.edu/class/cs101/image-diagram2.png)
+            ![Image Diagram](https://web.stanford.edu/class/cs101/image-diagram2.png)<br>
 
 
 
@@ -117,9 +117,9 @@
 
     4. **Quality Control in Manufacturing:**
         - Classification models can be employed in manufacturing settings to inspect products for defects or anomalies.
-        - For instance, in semiconductor manufacturing, images of microchips can be classified to identify faulty components.
+        - For instance, in semiconductor manufacturing, images of microchips can be classified to identify faulty components.<br>
 
-    ![Image diagrma](https://miro.medium.com/v2/resize:fit:822/1*CV81vQUQTq-ko_ER9gvqjg.png)
+    ![Image diagrma](https://miro.medium.com/v2/resize:fit:822/1*CV81vQUQTq-ko_ER9gvqjg.png)<br>
 
     
     ### <span style="color:blue">Detection Problems</span>
@@ -150,9 +150,9 @@
 
     2. **Identifying and Locating Vehicles on a Road:**
         - Detection algorithms in autonomous vehicles or traffic monitoring systems can detect and localize vehicles within camera images or video streams.
-        - This information is crucial for tasks such as collision avoidance, lane tracking, and traffic flow analysis.
+        - This information is crucial for tasks such as collision avoidance, lane tracking, and traffic flow analysis.<br>
 
-    ![image](https://media.geeksforgeeks.org/wp-content/uploads/20200122210826/stop_recognition_output.png)
+    ![image](https://media.geeksforgeeks.org/wp-content/uploads/20200122210826/stop_recognition_output.png)<br>
 
     
     ### <span style="color:blue"> Recognition Problems</span>
@@ -188,9 +188,9 @@
     3. **Optical Character Recognition (OCR):**
         - OCR systems extract text from images, scanned documents, or digital photographs
         - Applications include document digitization, text extraction from images for translation or data analysis, and automatic form processing.
-        - For example, OCR technology can convert scanned documents into editable text files, extract text from images for search indexing, or recognize text in license plates for automated toll collection systems.
+        - For example, OCR technology can convert scanned documents into editable text files, extract text from images for search indexing, or recognize text in license plates for automated toll collection systems.<br>
 
-        ![image](https://blog.roboflow.com/content/images/2020/10/sign-language-lead.gif)
+        ![image](https://blog.roboflow.com/content/images/2020/10/sign-language-lead.gif)<br>
     ### <span style="color:blue">Segmentation Problems</span>
 
     **Definition:**
@@ -229,8 +229,8 @@
         **Application:**
         Instance segmentation is valuable in applications where precise object delineation is necessary, such as tracking multiple objects in a video feed or analyzing interactions between individuals in a crowd.
 
-    Here is an image explaining about both types of segmenation.
-    ![diff](https://www.folio3.ai/blog/wp-content/uploads/2023/05/SS.png)
+    Here is an image explaining about both types of segmenation.<br>
+    ![diff](https://www.folio3.ai/blog/wp-content/uploads/2023/05/SS.png)<br>
 
     **Process:**
 
@@ -250,9 +250,9 @@
 
     2. **Identifying Different Tissues in Medical Imaging:**
         - In medical imaging, segmentation is used to identify and delineate different tissues or organs within the body.
-        - For example, in MRI or CT scans, segmentation can help in locating and quantifying abnormalities, tumors, or specific anatomical structures.
+        - For example, in MRI or CT scans, segmentation can help in locating and quantifying abnormalities, tumors, or specific anatomical structures.<br>
 
-    ![segmenation](https://nanonets.com/blog/content/images/2018/11/1_rZ1vDrOBWqISFiNL5OMEbg.jpeg)
+    ![segmenation](https://nanonets.com/blog/content/images/2018/11/1_rZ1vDrOBWqISFiNL5OMEbg.jpeg)<br>
 
 
     ### <span style="color:blue">Tracking Problems</span>
@@ -286,9 +286,9 @@
 
     2. **Tracking the Location of Vehicles in Traffic Surveillance:**
         - In traffic surveillance systems, tracking algorithms monitor the movement of vehicles on roads and highways.
-        - By tracking vehicle positions and velocities over time, these systems can detect traffic congestion, monitor traffic flow, and assist in incident detection and management.
+        - By tracking vehicle positions and velocities over time, these systems can detect traffic congestion, monitor traffic flow, and assist in incident detection and management.<br>
 
-    ![tracking](https://pyimagesearch.com/wp-content/uploads/2015/09/ball-tracking-animated-02.gif)
+    ![tracking](https://pyimagesearch.com/wp-content/uploads/2015/09/ball-tracking-animated-02.gif)<br>
 
 
 - # <span style="color:green">Implementing Computer Vision</span>
@@ -311,9 +311,9 @@
             - **Benefits:**
                 - Ensures uniformity right from the data collection stage.
                 - Reduces the need for extensive pre-processing.
-                - Can automate the collection and standardization process, saving time and effort.
+                - Can automate the collection and standardization process, saving time and effort.<br>
 
-            ![image](https://lh3.googleusercontent.com/yUzUp9si_oZXR5txIX7Ku-bg9Mr_Ol4QduQ1S9RcMOG65PSQvT9MgT6V4NbJjb6k77RF6T0mSXG2ebxDmb2wsr0T7ic)
+            ![image](https://lh3.googleusercontent.com/yUzUp9si_oZXR5txIX7Ku-bg9Mr_Ol4QduQ1S9RcMOG65PSQvT9MgT6V4NbJjb6k77RF6T0mSXG2ebxDmb2wsr0T7ic)<br>
 
         - **Manual Standardization:**
             - This approach accepts images in their original, varied formats and then uses scripts or software tools to convert them into a standardized format.
@@ -367,21 +367,21 @@
     1. **LabelImg:**
         - **Description:** A graphical image annotation tool that is easy to use and supports bounding box annotations.
         - **Features:** Provides an intuitive interface for drawing bounding boxes around objects and labeling them. Supports formats like Pascal VOC and YOLO.
-        - **Use Case:** Ideal for tasks requiring bounding box annotations, such as object detection.
+        - **Use Case:** Ideal for tasks requiring bounding box annotations, such as object detection.<br>
 
-            ![img](https://pypi-camo.freetls.fastly.net/6e836153050c4b8c587b6608193d6a4620c62362/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f747a7574616c696e2f6c6162656c496d672f6d61737465722f64656d6f2f64656d6f332e6a7067)
+            ![img](https://pypi-camo.freetls.fastly.net/6e836153050c4b8c587b6608193d6a4620c62362/68747470733a2f2f7261772e67697468756275736572636f6e74656e742e636f6d2f747a7574616c696e2f6c6162656c496d672f6d61737465722f64656d6f2f64656d6f332e6a7067)<br>
 
     2. **VGG Image Annotator (VIA):**
         - **Description:** A standalone, manual annotation software developed by the Visual Geometry Group at the University of Oxford.
         - **Features:** Supports various annotation types including bounding boxes, polygons, and points. It is lightweight and runs in a web browser.
-        - **Use Case:** Suitable for detailed and diverse annotation tasks, including segmentation and landmark annotations.
-        ![img](https://camo.githubusercontent.com/e29038501756506e1f3026533d5843ade36ed5ad424502ca625248d99f98b37d/68747470733a2f2f7261772e6769746861636b2e636f6d2f6a6f6a6f65652f646f636b65722d7669612f6d61737465722f64656d6f2e706e67)
+        - **Use Case:** Suitable for detailed and diverse annotation tasks, including segmentation and landmark annotations.<br>
+        ![img](https://camo.githubusercontent.com/e29038501756506e1f3026533d5843ade36ed5ad424502ca625248d99f98b37d/68747470733a2f2f7261772e6769746861636b2e636f6d2f6a6f6a6f65652f646f636b65722d7669612f6d61737465722f64656d6f2e706e67)<br>
 
     3. **RectLabel:**
         - **Description:** An annotation tool specifically designed for macOS.
         - **Features:** Provides a user-friendly interface for drawing bounding boxes, labeling objects, and exporting annotations in various formats.
-        - **Use Case:** Convenient for macOS users who need to create annotated datasets for object detection and recognition.
-        ![img](https://forums.fast.ai/uploads/default/original/3X/a/7/a7a24f7940c762f9cbb65a45106ce686c676ef74.jpeg)
+        - **Use Case:** Convenient for macOS users who need to create annotated datasets for object detection and recognition.<br>
+        ![img](https://forums.fast.ai/uploads/default/original/3X/a/7/a7a24f7940c762f9cbb65a45106ce686c676ef74.jpeg)<br>
 
     ### Implementation Details
 
@@ -577,7 +577,7 @@ When a filter is applied to an image, the output is a feature map that emphasize
 
 For a given filter <i> **K** </i> and input image <i> **I** </i>, the convolution operation is defined as: <br>
 
-![img](https://firebasestorage.googleapis.com/v0/b/scrapper-6e7db.appspot.com/o/Screenshot%20at%202024-05-30%2017-31-25.png?alt=media&token=d26d3ed0-d681-43c7-97d6-2a9098f8d95e)
+![img](https://firebasestorage.googleapis.com/v0/b/scrapper-6e7db.appspot.com/o/Screenshot%20at%202024-05-30%2017-31-25.png?alt=media&token=d26d3ed0-d681-43c7-97d6-2a9098f8d95e)<br>
 
 - **Stride (s):** The stride defines the step size with which the filter moves across the input image. A stride of 1 means the filter moves one pixel at a time, while a stride of 2 means it moves two pixels at a time.
 
@@ -608,9 +608,9 @@ For a given filter <i> **K** </i> and input image <i> **I** </i>, the convolutio
     => `1`
     <br>
 ​
-    - The full convolution result for the entire image would be similarly computed.
+    - The full convolution result for the entire image would be similarly computed.<br>
 
-![img](https://i.sstatic.net/Ntd2e.png)
+![img](https://i.sstatic.net/Ntd2e.png)<br>
 
 **Example of Convolution Operation with Horizontal Edge Detection Filter:**
 
@@ -634,11 +634,11 @@ For a given filter <i> **K** </i> and input image <i> **I** </i>, the convolutio
     <br>
     ​
 
-    - The full convolution result for the entire image would be similarly computed.
-    ![img](https://anhreynolds.com/img/edge-detection-horizontal.png)
+- The full convolution result for the entire image would be similarly computed.
+![img](https://anhreynolds.com/img/edge-detection-horizontal.png)
 
-Here is an example result from VED and HED.
-![img](https://media5.datahacker.rs/2018/10/edges.jpg)
+Here is an example result from VED and HED.<br>
+![img](https://media5.datahacker.rs/2018/10/edges.jpg)<br>
 
 ## Max Pooling
 
@@ -671,10 +671,10 @@ For a given pooling window size \( f \) and stride \( s \), the max pooling oper
         - First window (top-left 2x2 region): Max(1, 3, 5, 6) = 6
         - Second window (top-right 2x2 region): Max(2, 4, 8, 7) = 8
         - Third window (bottom-left 2x2 region): Max(9, 2, 4, 5) = 9
-        - Fourth window (bottom-right 2x2 region): Max(0, 1, 6, 3) = 6
+        - Fourth window (bottom-right 2x2 region): Max(0, 1, 6, 3) = 6<br>
 
-![img](https://media.geeksforgeeks.org/wp-content/uploads/20190721025744/Screenshot-2019-07-21-at-2.57.13-AM.png)
-![img](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs13244-018-0639-9/MediaObjects/13244_2018_639_Fig6_HTML.png)
+![img](https://media.geeksforgeeks.org/wp-content/uploads/20190721025744/Screenshot-2019-07-21-at-2.57.13-AM.png)<br>
+![img](https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs13244-018-0639-9/MediaObjects/13244_2018_639_Fig6_HTML.png)<br>
 
 
 #### Min Pooling
@@ -700,9 +700,9 @@ Min pooling is similar to max pooling but instead of selecting the maximum value
         - First window (top-left 2x2 region): Min(1, 3, 5, 6) = 1
         - Second window (top-right 2x2 region): Min(2, 4, 8, 7) = 2
         - Third window (bottom-left 2x2 region): Min(9, 2, 4, 5) = 2
-        - Fourth window (bottom-right 2x2 region): Min(0, 1, 6, 3) = 0
+        - Fourth window (bottom-right 2x2 region): Min(0, 1, 6, 3) = 0<br>
 
-![img](https://iq.opengenus.org/content/images/2020/04/MinEg.png)
+![img](https://iq.opengenus.org/content/images/2020/04/MinEg.png)<br>
 
 #### Average Pooling
 
@@ -727,28 +727,28 @@ Average pooling computes the average value within each pooling window. This oper
         - First window (top-left 2x2 region): Average(1, 3, 5, 6) = (1 + 3 + 5 + 6) / 4 = 3.75
         - Second window (top-right 2x2 region): Average(2, 4, 8, 7) = (2 + 4 + 8 + 7) / 4 = 5.25
         - Third window (bottom-left 2x2 region): Average(9, 2, 4, 5) = (9 + 2 + 4 + 5) / 4 = 5.00
-        - Fourth window (bottom-right 2x2 region): Average(0, 1, 6, 3) = (0 + 1 + 6 + 3) / 4 = 2.50
+        - Fourth window (bottom-right 2x2 region): Average(0, 1, 6, 3) = (0 + 1 + 6 + 3) / 4 = 2.50<br>
 
-![img](https://media.geeksforgeeks.org/wp-content/uploads/20190721030705/Screenshot-2019-07-21-at-3.05.56-AM.png)
+![img](https://media.geeksforgeeks.org/wp-content/uploads/20190721030705/Screenshot-2019-07-21-at-3.05.56-AM.png)<br>
 
 ### Summary
 
 - **Max Pooling** selects the maximum value within each window, emphasizing the most prominent features.
 - **Min Pooling** selects the minimum value within each window, highlighting the least prominent features.
-- **Average Pooling** calculates the average value within each window, providing a downsampled representation that retains more overall information compared to max or min pooling.
+- **Average Pooling** calculates the average value within each window, providing a downsampled representation that retains more overall information compared to max or min pooling.<br>
 
 
-![img](https://iq.opengenus.org/content/images/2020/04/MinPool.png)
+![img](https://iq.opengenus.org/content/images/2020/04/MinPool.png)<br>
 
 ### Padding
 The main reason for using padding in Convolutional Neural Networks (CNNs) is to ensure that the border pixels are processed as thoroughly as the central pixels. Without padding, border pixels are only covered by the filter once, which limits the amount of information captured from the edges of the input. Padding allows the filter to fully cover and learn from the border pixels, ensuring that edge information is not lost and improving the network's ability to detect features throughout the entire image.
 
-look at the following example : 
-![img](https://almablog-media.s3.ap-south-1.amazonaws.com/4_bec7767649.png)
-![img](https://almablog-media.s3.ap-south-1.amazonaws.com/5_f99d1f01bc.png)
+look at the following example : <br>
+![img](https://almablog-media.s3.ap-south-1.amazonaws.com/4_bec7767649.png)<br>
+![img](https://almablog-media.s3.ap-south-1.amazonaws.com/5_f99d1f01bc.png)<br>
 
-after applying padding:
-![img](https://almablog-media.s3.ap-south-1.amazonaws.com/9_d0e24ad09a.png)
+after applying padding:<br>
+![img](https://almablog-media.s3.ap-south-1.amazonaws.com/9_d0e24ad09a.png)<br>
 
 ### Stride
 
@@ -778,9 +778,9 @@ A Convolutional Neural Network (CNN) is a class of deep learning algorithms desi
 
 The input layer is where the raw data (e.g., an image) is fed into the CNN. For an image, this would typically be a 3D matrix with dimensions corresponding to height, width, and the number of color channels (e.g., RGB has 3 channels).
 
-Example: For a 64x64 RGB image, the input would be a 64x64x3 tensor.
+Example: For a 64x64 RGB image, the input would be a 64x64x3 tensor.<br>
 
-![img](https://miro.medium.com/v2/0*6DjkDFLPcDh3R3hN.png)
+![img](https://miro.medium.com/v2/0*6DjkDFLPcDh3R3hN.png)<br>
 
 #### 2. Convolutional Layer(s)
 
@@ -811,8 +811,8 @@ After the convolution operation, an activation function is applied to introduce 
 
 
 
-Example: Applying ReLU to the feature map ensures that all negative values are set to zero, making the feature map sparse and reducing computational complexity.
-![relu](https://www.researchgate.net/profile/Kamel-Abdelouahab/publication/331800773/figure/fig5/AS:895112288690177@1590422808598/Example-of-ReLU-activation-function.png)
+Example: Applying ReLU to the feature map ensures that all negative values are set to zero, making the feature map sparse and reducing computational complexity.<br>
+![Example-of-ReLU-activation-function](https://github.com/gautam132002/computer-vision/assets/68372911/b381452f-60e9-4267-a3e5-4d8b706fcc03)
 -  **`ReLU:`**` ReLU(x) = max(0,x)`
 
 #### 4. Pooling Layer(s)
@@ -827,13 +827,15 @@ Example: Applying 2x2 max pooling with a stride of 2 on a 64x64xN feature map re
 
 #### 5. Fully Connected Layer(s)
 
+
+![Classification-with-Flatten-and-Fully-Connected-layers](https://github.com/gautam132002/computer-vision/assets/68372911/7e5016b1-d967-43c6-87c1-7242f0208165)
+
 After several convolutional and pooling layers, the high-level reasoning in the neural network is performed via fully connected (FC) layers. The output from the convolutional and pooling layers is flattened into a 1D vector and passed through one or more FC layers.
 
 - **Flattening:** Converting the 2D feature maps into a 1D vector.
 - **Dense Layers:** Each neuron in a dense layer is connected to every neuron in the previous layer.
 
-Example: A feature map of size 7x7x2048 is flattened to a vector of size 100325, which is then fed into a dense layer with M neurons.
-![fcc](https://www.researchgate.net/profile/Mohammad-Rahimzadeh-5/publication/351034929/figure/fig1/AS:1016624756834304@1619393638253/Classification-with-Flatten-and-Fully-Connected-layers.png)
+Example: A feature map of size 7x7x2048 is flattened to a vector of size 100325, which is then fed into a dense layer with M neurons.<br>
 
 #### 6. Output Layer
 
